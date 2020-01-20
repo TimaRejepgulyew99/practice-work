@@ -4,7 +4,7 @@ function recordData(tasks) {
 }
 export default {
     state: {
-        tasks: JSON.parse(localStorage.getItem('tasks')),
+        tasks: JSON.parse(localStorage.getItem('tasks'))||[],
     },
     mutations: {
         newTask(state, payload) {

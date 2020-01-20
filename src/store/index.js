@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import task from '../store/task'
+import profile from '../store/profile'
+
 Vue.use(Vuex)
 export default new Vuex.Store({
     modules:{
-        task
+        profile
     }
 })
